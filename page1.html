@@ -1,4 +1,5 @@
 <head>
+  <title>News Site</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
   <!-- Latest compiled and minified CSS -->
@@ -9,48 +10,170 @@
 
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
 
 <body>
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <!-- <a class="navbar-brand" href="#">Brand</a> -->
-      </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="page.html">Page <span class="sr-only">(current)</span></a></li>
-          <!-- <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">Separated link</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">One more separated link</a></li>
-            </ul>
-          </li> -->
-        </ul>
-        <!-- <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Link</a></li>
-        </ul> -->
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
   <div class="container">
+
+    <img class="img-responsive" src="http://placehold.it/450x183&text=LOGO">
+
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- <a class="navbar-brand" href="#">Brand</a> -->
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="page1.html">Page 1<span class="sr-only">(current)</span></a></li>
+            <li><a href="page2.html">Page 2<span class="sr-only">(current)</span></a></li>
+            <li><a href="page3.html">Page 3<span class="sr-only">(current)</span></a></li>
+            <li><a href="page4.html">Page 4<span class="sr-only">(current)</span></a></li>
+            <li><a href="page5.html">Page 5<span class="sr-only">(current)</span></a></li>
+            <li><a href="page6.html">Page 6<span class="sr-only">(current)</span></a></li>
+            <li><a href="page7.html">Page 7<span class="sr-only">(current)</span></a></li>
+            <li><a href="page8.html">Page 8<span class="sr-only">(current)</span></a></li>
+          </ul>
+
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <ol class="breadcrumb">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Library</a></li>
+      <li class="active">Data</li>
+    </ol>
+
     <div class="page-header">
-      <h1>Example page header <small>Subtext for header</small></h1>
+      <h1>Example page header <small>Subtext for header</small> <span class="label label-danger">New</span></h1>
     </div>
+
+    <h1>h1. Bootstrap heading</h1>
+    <h2>h2. Bootstrap heading</h2>
+    <h3>h3. Bootstrap heading</h3>
+    <h4>h4. Bootstrap heading</h4>
+    <h5>h5. Bootstrap heading</h5>
+    <h6>h6. Bootstrap heading</h6>
+
+    <div class="table-responsive">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <td>
+              <strong>#</strong>
+            </td>
+            <td>
+              <strong>First Name</strong>
+            </td>
+            <td>
+              <strong>Last Name</strong>
+            </td>
+            <td>
+              <strong>Score</strong>
+            </td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>
+              John
+            </td>
+            <td>
+              Smith
+            </td>
+            <td>
+              1000
+            </td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>
+              John
+            </td>
+            <td>
+              Smith
+            </td>
+            <td>
+              1000
+            </td>
+          </tr>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>
+              John
+            </td>
+            <td>
+              Smith
+            </td>
+            <td>
+              1000
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-8">
+        <a href="page1.html">Page 1<span class="sr-only">(current)</span></a> &middot;
+        <a href="page2.html">Page 2<span class="sr-only">(current)</span></a> &middot;
+        <a href="page3.html">Page 3<span class="sr-only">(current)</span></a> &middot;
+        <a href="page4.html">Page 4<span class="sr-only">(current)</span></a> &middot;
+        <a href="page5.html">Page 5<span class="sr-only">(current)</span></a> &middot;
+        <a href="page6.html">Page 6<span class="sr-only">(current)</span></a> &middot;
+        <a href="page7.html">Page 7<span class="sr-only">(current)</span></a> &middot;
+        <a href="page8.html">Page 8<span class="sr-only">(current)</span></a>
+        <span class="help-block">
+          <small>&copy; 2016 News Site. All Rights Reserved.</small>
+        </span>
+      </div>
+      <div class="col-md-4">
+        <p class="text-right">
+          <span class="fa-stack fa-lg">
+            <a href="#">
+
+              <i style="color: #3B5998;" class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+            </a>
+          </span>
+          &nbsp;
+          <span class="fa-stack fa-lg">
+            <a href="#">
+
+              <i style="color: #55ACEE;" class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+            </a>
+          </span>
+          &nbsp;
+          <span class="fa-stack fa-lg">
+            <a href="#">
+              <i style="color: #DD4F43;" class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+            </a>
+          </span>
+        </p>
+      </div>
+    </div>
+
+
+    <br>
   </div>
 </body>
